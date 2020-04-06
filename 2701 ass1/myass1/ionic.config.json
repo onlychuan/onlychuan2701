@@ -1,0 +1,7 @@
+{
+  "name": "myass1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>datailedit</ion-title>
+    <!-- <ion-button color="light" (click)="back()">Close</ion-button> -->
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button color="danger"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input [(ngModel)]="coursename" value="" placeholder="CourseName"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="courseid" value="" placeholder="Course ID"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="class" value="" placeholder="Class Location"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="time" value="" placeholder="Class start Time"></ion-input>
+  </ion-item>
+  <ion-button (click)="create()">Create</ion-button>
+</ion-content>
