@@ -12,7 +12,7 @@ export class RegisterPage implements OnInit {
 
   ngOnInit() {
   }
-
+// function form back
   dismissback() {
     this.modalController.dismiss();
   }

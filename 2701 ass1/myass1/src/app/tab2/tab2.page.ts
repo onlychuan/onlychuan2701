@@ -19,7 +19,7 @@ export class Tab2Page {
     return await registerModal.present();
 }
 
-
+//funcation for router to navipage
 login(){
   this.router.navigateByUrl('navigation');
 }

@@ -13,6 +13,7 @@ export class NavigationPage implements OnInit {
   ngOnInit() {
   }
 
+//function for back
   logout(){
     this.router.navigateByUrl('tab2');
   
